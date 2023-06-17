@@ -1,0 +1,20 @@
+<h1 class="text-center">Welcome To my channel</h1>
+<p><b>Welcome</b> ! {{ name }}</p>
+<p><b>From</b> : {{ location }}</p>
+<p><b>status</b> : {{ getstatus() }}</p>
+<button class="btn btn-danger" type="buuton" (click)="getmessage()">
+  Save
+</button>
+<div class="row">
+    <div class="col-md-4 offset-md-4">
+        <div class="card ">
+            <div class="card-header">
+                <h4 class="text-center">To Way Binding</h4>
+            </div>
+            <div class="card-body"><input type="text" class="form-control" /></div>
+        </div>
+    </div>
+</div>
+<div class="row d-flex  justify-content-center">
+    <button class=" go btn btn-link " (click)="goToRegister()">Go To Register</button>
+</div>
